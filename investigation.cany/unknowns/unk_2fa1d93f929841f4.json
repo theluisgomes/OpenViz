@@ -1,0 +1,15 @@
+{
+  "id": "unk_2fa1d93f929841f4",
+  "revision": 3,
+  "question": "Which file formats must the free version open (CSV only, Excel, the original's own workbook files)?",
+  "severity": "medium",
+  "domain": "data",
+  "status": "blocked",
+  "probes": [
+    "Ask the person",
+    "Sample files from the person"
+  ],
+  "evidence_for": [],
+  "evidence_against": [],
+  "resolution": "Partly addressed, still not confirmed by the person. ESTIMATE: the rebuild now opens CSV/TSV/TXT and spreadsheet files (.xlsx, .xlsm, .xlsb, .xls, .ods), with a picker for workbooks that have several sheets, and saves its own open JSON workbook (.ovw). The original program's own workbook files are still NOT read. Asking the person which file types they use would settle it."
+}

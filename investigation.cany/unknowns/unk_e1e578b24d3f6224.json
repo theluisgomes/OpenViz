@@ -1,0 +1,14 @@
+{
+  "id": "unk_e1e578b24d3f6224",
+  "revision": 2,
+  "question": "Which of the original's features matter most to the person (file data import, chart building with drag-and-drop shelves, dashboards, maps, database connections, sharing)?",
+  "severity": "high",
+  "domain": "scope",
+  "status": "resolved",
+  "probes": [
+    "Ask the person with core_person_ask"
+  ],
+  "evidence_for": [],
+  "evidence_against": [],
+  "resolution": "The person left decisions to the builder. Chosen scope for v1: open CSV files plus a built-in sample, preview the data, build charts by dragging fields onto Columns/Rows/Marks shelves (bar, line, area, circle/scatter, square/heat map, text table, pie), filters, sorting, several sheets, a simple dashboard, and saving/opening workbooks. Maps, live database connections and publishing are left for later rounds."
+}

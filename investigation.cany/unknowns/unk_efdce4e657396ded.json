@@ -1,0 +1,15 @@
+{
+  "id": "unk_efdce4e657396ded",
+  "revision": 2,
+  "question": "What does the original's main window look like (layout, colours, panel placement)? No reference picture or running capture exists.",
+  "severity": "high",
+  "domain": "ui",
+  "status": "blocked",
+  "probes": [
+    "A screenshot of the original running, supplied by the person",
+    "Person's description of the main window"
+  ],
+  "evidence_for": [],
+  "evidence_against": [],
+  "resolution": "Not settled: no reference picture or capture of the original exists and the person left decisions to the builder. ESTIMATE used instead: the common layout of this kind of visual-analytics app (Data pane on the left, Filters and Marks cards, Columns/Rows shelves above the view, Show Me panel on the right, sheet tabs at the bottom) in a neutral light theme with an original name (OpenViz) and no brand assets. A screenshot of the original running would settle it."
+}

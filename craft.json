@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "name": "TableauDesktop-2026-3-0",
+  "request": "rebuild tableau to make it free and opensource",
+  "target": {
+    "kind": "local",
+    "path": "/home/luis/Downloads/TableauDesktop-2026-3-0.dmg"
+  },
+  "stack": "Rust + egui (eframe)",
+  "status": "ready",
+  "note": "Ready: all 2 checks pass. 2 questions about the original are still open.",
+  "created_ms": 1793553950869,
+  "updated_ms": 1793556351369,
+  "checks": [
+    {
+      "round": 1,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1793555886623
+    },
+    {
+      "round": 1,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1440×900).",
+      "artifacts": [
+        "checks/round-1/screenshot.png"
+      ],
+      "at_ms": 1793555889298
+    },
+    {
+      "round": 2,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1793556348642
+    },
+    {
+      "round": 2,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1440×900).",
+      "artifacts": [
+        "checks/round-2/screenshot.png"
+      ],
+      "at_ms": 1793556351215
+    }
+  ],
+  "agent_session": "f4893a64-14d4-457b-a9c3-90303abcdcd3",
+  "allowed_actions": [],
+  "last_reply": "Calamine (a spreadsheet reader) is available, so I'll add Excel support. Checking its interface first.I'm going with Excel and OpenDocument spreadsheet files, the most common request. Adding the reader to the data code:Now a picker for workbooks with several sheets, so you can choose which sheet to explore.The spreadsheet reader picked a newer helper library version that doesn't fit; pinning it to the matching older one.Builds. Now I'll make a small two-sheet Excel file to test that numbers, text and dates come through right.Excel reading works, including dates and choosing a sheet. Taking a look at the data screen with that file open, then running the check.OpenViz now opens Excel and OpenDocument spreadsheet files as well as CSV, reading dates and numbers correctly. If a file has several sheets, you can pick which one to explore on the Data Source screen. It builds, my checks pass (including a test on a two-sheet Excel file), and Craft Anything's check says it would pass; it still can't open the original program's own saved files.",
+  "asset_budget_usd": 5.0,
+  "generate_assets": false
+}
